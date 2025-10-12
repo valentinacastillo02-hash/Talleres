@@ -2,7 +2,7 @@
 //Valentina Castillo,Rut; 15.166.692-2, Carrera: Ingenieria en tecnologias de información.
 
 
-package desafio2_pack;
+package Dominio;
 
 public class vulnerabilidades {
     private int puerto;
@@ -25,3 +25,4 @@ public class vulnerabilidades {
     	return descripcion; 
     	}
 }
+
