@@ -1,39 +1,27 @@
-package Dominio;
+//Emiliano Angel Toro Rojas, RUT: 21.512.702-8, Carrera: Ingenieria en tecnologias de información.
+//Valentina Castillo,Rut; 15.166.692-2, Carrera: Ingenieria en tecnologias de información.
+
+
+package desafio2_pack;
 
 public class vulnerabilidades {
-	private  String Puerto;
-	private String Nombre;
-	private String Descripción;
-	
-	public vulnerabilidades(String Puerto,String Nombre, String Descripción) {
-		this.setPuerto(Puerto);
-		this.setNombre(Nombre);
-		this.setDescripción(Descripción);
-	}
+    private int puerto;
+    private String nombre;
+    private String descripcion;
 
-	public String getPuerto() {
-		return Puerto;
-	}
+    public vulnerabilidades(int puerto, String nombre, String descripcion) {
+        this.puerto = puerto;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+    }
 
-	public void setPuerto(String puerto) {
-		Puerto = puerto;
-	}
-
-	public String getNombre() {
-		return Nombre;
-	}
-
-	public void setNombre(String nombre) {
-		Nombre = nombre;
-	}
-
-	public String getDescripción() {
-		return Descripción;
-	}
-
-	public void setDescripción(String descripción) {
-		Descripción = descripción;
-	}
-	
-
+    public int getPuerto() { 
+    	return puerto; 
+    	}
+    public String getNombre() { 
+    	return nombre; 
+    	}
+    public String getDescripcion() { 
+    	return descripcion; 
+    	}
 }
